@@ -113,6 +113,7 @@ export default function Home() {
             <div className={styles.banner}>
                <Image 
                   src={banner}
+                  alt="banner"
                   placeholder="blur"
                   style={{width:"100%"}}
                />

@@ -1,0 +1,31 @@
+// imported variebles
+@import "../variable";
+
+.icon {
+    text-align: end;
+    font-size: $header-5-fz;
+
+    a {
+        color:$color-text
+    }
+}
+
+.firstSpan {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 12%;
+    i {
+            font-size: $header-5-fz;
+            margin: 5px 0 0 5%;
+    }
+    p {
+       margin: 0 0 0 4%;
+       font-weight: $header-6-fw-bolder;
+    }
+   
+}

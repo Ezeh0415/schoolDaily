@@ -1,0 +1,164 @@
+// imported variebles
+@import "../variable";
+
+.main {
+    article {
+        overflow: hidden;
+        height:700px;
+       transition: 1s ease;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 1px;
+        padding: 5px;
+        h1 {
+            color: $color-primary;
+            font-size: $header-4-fz;
+            font-weight: $header-4-fw-bolder;
+        }
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 75%;
+            span {
+                border: solid 1px;
+                height: 10px;
+                width: 800px;
+                border-radius: 30px;
+                transition: 1s ease;
+                .progress{
+                    margin-top: -1px;
+                    height: 10px;
+                    border-radius: 30px;
+                    background-color:$color-secondary;
+                    width: 400px;
+                    transition: 1s ease;
+                }
+                .progress1{
+                    margin-top: -1px;
+                    height: 10px;
+                    border-radius: 30px;
+                    background-color:$color-secondary;
+                    width: 800px;
+                    transition: 1s ease;
+                }
+            }
+        }
+    }
+   div {
+    border-radius: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 500px;
+    height: 480px;
+    margin: 5% auto;
+    background-color:$color-tertiary;
+    display: grid;
+    place-content: center;
+    nav {
+        background-color:$color-tertiary;
+        h1 {
+            font-size: $header-4-fz;
+            font-weight: $header-4-fw-bolder;
+            line-height: $header-4-line-height;
+            letter-spacing: $header-4-letter-spaceing
+        }
+    }
+    form {
+        text-align: center;
+
+        input {
+            margin-top: 5%;
+            font-size: $header-5-fz;
+            background-color: $color-tertiary;
+            border-radius: 20px;
+        }
+        input::placeholder {
+            font-size: $body-1-fz;
+            color: $color-subtle-text
+        }
+        button {
+            margin-top: 5%;
+            color: $color-tertiary;
+        }
+    }
+   }
+
+   section {
+     div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: $header-3-fz;
+            font-weight: $header-3-fw-bolder;
+            line-height:$header-3-line-height;
+            letter-spacing: $header-3-letter-spaceing
+        }
+        h4 {
+            margin-top: -8px;
+            font-size: $header-4-fz;
+            font-weight: $header-4-fw-bolder;
+            line-height:$header-4-line-height;
+            letter-spacing: $header-4-letter-spaceing
+        }
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+                padding: 10px;
+                width: 120px;
+                border-radius: 20px;
+                margin: 0;
+                color: $color-text;
+                background-color: $color-subtle-body-text;
+            }
+            p {
+                margin-top: 10px;
+            }
+        }
+        button {
+            width: 260px;
+            text-align: center;
+            margin-top: 5%;
+            padding: 15px;
+            border: solid 1px;
+            border-radius: 20px;
+            background-color:$color-primary;
+            a {
+                color: $color-tertiary;
+                font-size: $header-5-fz;
+                text-decoration: none;
+            }
+        }
+     }
+
+
+// multi step function
+     #signupfirst {
+       transform: translateY(0);
+       transition: 1s ease;
+     }
+
+     .signuplast {
+        transform: translateY(570px);
+        transition: 1s ease;
+     }
+
+     #signupfirst1 {
+       transform: translateY(-800px);
+       transition: 1s ease;
+     }
+
+     .signuplast1 {
+        transform: translateY(-570px);
+        transition: 1s ease;
+     }
+   }
+}

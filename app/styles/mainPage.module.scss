@@ -1,0 +1,111 @@
+// imported variebles
+@import "../variable";
+
+.main {
+    section {
+        margin: 0 20px;
+        display: flex;
+        height: 84vh;
+
+        .firstDiv {
+            width: 650px;
+            padding: 0 25px;
+            overflow: auto;
+
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 290px;
+
+                    small:first-of-type {
+                        border-right: solid 2px;
+                        padding: 3px 7px;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            border-right: solid 2px;
+                            padding: 3px 7px;
+                        }
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $color-text;
+                    padding: 7px;
+                    font-size: $body-1-fz;
+                    border-radius: 20px;
+                    background-color: $color-subtle-body-text;
+                    letter-spacing: $header-1-letter-spaceing;
+                }
+            }
+
+            article {
+                margin-top: -15px;
+                border-bottom: solid 1px;
+
+                p {
+                    margin-top: -7px;
+                    text-transform: capitalize;
+                }
+
+                a {
+                    text-decoration: none;
+                    margin-top: -20px;
+                    color: $color-success;
+                }
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    ul {
+                        list-style-type: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        padding: 5px 0px;
+                        margin-top: 5px;
+                        width: 230px;
+    
+                        li {
+                            display: flex;
+                            align-items: center;
+                            font-size: $header-6-fz;
+                            font-weight: $header-4-fw-bolder;
+                            padding: 2px 8px;
+                            border-radius: 20px;
+                            background-color: $color-default-input-fields;
+    
+                            i {
+                              margin-top: 3px;;
+                            }
+    
+                            em {
+                                font-size: $body-1-fz;
+                                margin-top: -1px;
+                            }
+                        }
+                    }
+
+                  
+
+                    i {
+                        font-size: $header-6-fz;
+                        font-weight: $header-4-fz;
+                    }
+                }
+            }
+        }
+    }
+}

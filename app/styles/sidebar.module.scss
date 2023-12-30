@@ -1,0 +1,180 @@
+// imported variebles
+@import "../variable";
+
+.main {
+   border-top: solid 1px $color-subtle-text;
+   border-right: solid 1px $color-subtle-text;
+    width: 210px;
+    height: 85.5vh;
+    margin-top: -6px;
+    overflow:hidden;
+
+    .firstTwo {
+        border-bottom: solid 1px ;
+        height: 90px;
+        width: 190px;
+        margin-left: -10px;
+
+        ul {
+            list-style-type: none;
+            margin: 4% 0 0 -25px;
+
+            li {
+                font-size: $body-1-fz;
+                font-weight: $header-4-fw-bolder;
+                padding: 8px;
+                border-radius: 9px;
+                width: 145px;
+                display: flex;
+                align-items: center;
+                margin-top: 2%;
+                text-transform: capitalize;
+
+                a {
+                    text-decoration: none;
+                    color: $color-text;
+                    margin-left: 5px;
+                }
+            }
+
+            li:first-of-type{
+                margin-bottom: 2%;
+            }
+
+            li:hover {
+                background-color: $color-primary2;
+            }
+        }
+    }
+
+    .secondThree {
+        border-bottom: solid 1px ;
+        height: 130px;
+        width: 190px;
+        margin-left: -1px;
+
+        div {
+            display: flex;
+            margin:0% 0 0 -20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 4% 0 0 -17px;
+
+            li {
+                font-size: $body-1-fz;
+                font-weight: $header-4-fw-bolder;
+                padding: 8px;
+                border-radius: 9px;
+                width: 145px;
+                display: flex;
+                align-items: center;
+                margin-top: 2%;
+                text-transform: capitalize;
+
+                a {
+                    text-decoration: none;
+                    color: $color-text;
+                    margin-left: 5px;
+                }
+            }
+
+            li:first-of-type{
+                margin-bottom: 2%;
+            }
+
+            li:hover {
+                background-color: $color-primary2;
+            }
+        }
+
+        span {
+            margin-top: 12%;
+            height: 97px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .thirdFour {
+        border-bottom: solid 1px ;
+        height: 280px;
+        width: 190px;
+        margin-left: -1px;
+
+        div {
+            display: flex;
+            margin:0% 0 0 -20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 5% 0 0 -17px;
+
+            li {
+                font-size: $body-1-fz;
+                font-weight: $header-4-fw-bolder;
+                padding: 8px;
+                border-radius: 9px;
+                width: 145px;
+                display: flex;
+                align-items: center;
+                margin-top: 2%;
+                text-transform: capitalize;
+
+                a {
+                    text-decoration: none;
+                    color: $color-text;
+                    margin-left: 5px;
+                }
+            }
+
+            li:first-of-type{
+                margin-bottom: 2%;
+            }
+
+            li:hover {
+                background-color: $color-primary2;
+            }
+        }
+
+        span {
+            margin-top: 12%;
+            height: 140px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .footer {
+        margin: 0 0 0 10px;
+        div {
+            margin: 0 0 0 -25px;
+
+            ul {
+                list-style-type: none;
+                margin-left: -25px;
+                li{
+                    font-size: $body-2-fz;
+                    font-weight: $header-5-fw-bolder;
+                    text-transform: capitalize;
+                    margin-top: 5px;
+                    a {
+                        color: $color-primary;
+                        text-decoration: none;
+                    }
+                }
+            }
+            h2 {
+                font-size: $header-6-fz;
+                margin-left: 2px;
+                margin: -8px 0 0 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,219 @@
+// imported variebles
+@import "../variable";
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    header {
+        padding: 0px;
+        margin: 0 25px;
+        h1 {
+            font-size: $header-4-fz;
+            line-height: $header-4-line-height;
+            letter-spacing: $header-4-letter-spaceing;
+            color: $color-primary;
+            text-transform: uppercase;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        nav{
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style-type: none;
+                width: 450px;
+                li{
+                    font-size: $subtitle-fz;
+                    a{
+                        text-decoration: none;
+                        color: $color-text
+                    }
+                }
+            }
+        }
+        button {
+            padding: 15px;
+            border-radius: 40px;
+            border: none;
+            width: 100px;
+            background-color:$color-primary;
+            a{
+                color: $color-tertiary;
+                text-decoration: none;
+                font-size: $header-6-fz;
+            }
+        }
+    }
+    section {
+       .banner{
+        border-top: solid 1px;
+       }
+    }
+    section {
+       .textSection {
+        padding: 0px;
+        margin: 0 25px;
+        display: flex;
+        align-items: center;
+       }
+        h1 {
+            font-size: $header-5-fz;
+            font-weight: $header-4-fw-bolder;
+            text-transform: capitalize;
+
+        }
+        p {
+            font-size: $header-4-fz;
+            font-weight: $header-4-fw-bolder;
+            text-transform: capitalize;
+        }
+    }
+    section {
+        .gridFlex {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .firstSection {
+            padding: 0px;
+            margin: 0 25px;
+            width: 350px;
+            div {
+                display: flex;
+                align-items: center;
+                height: 50px;
+                width: 230px;
+                p {
+                    color:$color-subtle-text;
+                }
+                .num {
+                    font-size: $header-4-fz;
+                }
+                .name {
+                    margin-top: 28px;
+                }
+            }
+            h3 {
+                font-size: $header-6-fz;
+                text-transform:capitalize;
+                margin: -4px 0 0 46px;
+                font-weight: $header-5-fw-bolder;
+                line-height : $header-5-line-height;
+                letter-spacing: $header-5-letter-spaceing;
+            }
+            p {
+                color:$color-subtle-text;
+                font-size: $body-1-fz;
+            }
+            .date {
+                margin: 3px 0 0 46px;
+            }
+        }
+    }
+    section {
+        .flexDiv {
+            margin: 5% 0 5% 0;
+            display: flex;
+            align-items: center;
+            // first div styleing
+            .first {
+                padding: 0px;
+                margin: 0 25px;
+                display: flex;
+                align-items: center;
+                height: 150px;
+                .textDiv {
+                    width: 500px;
+                    div {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 50px;
+                    }
+                    .textFirstDiv {
+                        width: 180px;
+                    }
+                    .textSecondDiv {
+                        margin: -7px 0 0 0;
+                        width: 280px;
+                    }
+                    h3 {
+                        font-size: $header-5-fz;
+                        text-transform:capitalize;
+                        margin: -5px 0 0 0;
+                        font-weight: $header-5-fw-bolder;
+                        line-height : $header-5-line-height;
+                        letter-spacing: $header-5-letter-spaceing;
+                    }
+                    p {
+                        font-size: $body-1-fz;
+                        color:$color-subtle-text
+                    }
+                    .loveAi {
+                        color:$color-text;
+                        width: 70px;
+                        text-align: center;
+                        padding: 5px;
+                        border-radius: 15px;
+                        background-color: $color-subtle-body-text;
+                    }
+                }
+            }
+
+            // second div styling 
+             .secondDiv {
+                margin-top: -4%;
+                h2 {
+                    text-transform: capitalize;
+                }
+                div {
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    margin: 0 2% 0 20px;
+                    p{
+                        font-size: $body-1-fz;
+                        color: $color-text;
+                        text-transform: capitalize;
+                        background-color: $color-subtle-body-text;
+                        padding: 5px;
+                        text-align: center;
+                        border-radius: 20px;
+                        margin-left: 10px;
+                    }
+                    p {
+                        margin: 5px;
+                    }
+                    p:hover {
+                        background-color: $color-primary;
+                        color: $color-tertiary
+                    }
+                }
+                h6 {
+                    font-size: $header-5-fz;
+                    font-weight: $header-5-fw-bolder;
+                    margin:7% 10% 0 35px;
+                    a{
+                        color: $color-primary;
+                        text-decoration: none;
+                        margin-top: 7%;
+                    }
+                }
+                span {
+                    margin-top: 20%;
+                    main {
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        width: 300px;
+                        p {
+                            font-size: $body-1-fz;
+                            color:$color-text;
+                            margin: 5px;
+                            padding: 0px;
+                        }
+                    }
+                }
+             }
+        }
+    }
+}

@@ -57,12 +57,15 @@
                 p {
                     margin-top: -7px;
                     text-transform: capitalize;
+                    font-size: $body-2-fz;
+                    font-weight: $header-5-fw-bolder;
                 }
 
                 a {
                     text-decoration: none;
                     margin-top: -20px;
                     color: $color-success;
+                    text-transform: capitalize;
                 }
 
                 span {

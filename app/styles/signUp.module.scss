@@ -27,7 +27,7 @@
             }
          }
         h2 {
-           text-transform: capitalize;
+           text-transform: uppercase;
         }
         .firstSpan {
                 display: flex;
@@ -38,6 +38,7 @@
                 border-radius: 30px;
                 margin-top: 10px;
                 margin-left: 27%;
+                text-transform: capitalize;
                 i {
                         font-size: $header-5-fz;
                         margin: 5px 0 0 5%;
@@ -52,6 +53,7 @@
         .lastSpan {
                 display: flex;
                 align-items: center;
+                text-transform: uppercase;
         }
 
         form {
@@ -85,6 +87,7 @@
                     background-color: $color-primary;
                     font-size: $header-6-fz;
                     font-weight: $header-6-fw-bold;
+                    text-transform: capitalize;
                     a {
                         text-decoration: none;
                         color: $color-tertiary
@@ -93,6 +96,7 @@
 
                 h5 {
                         color: $color-subtle-text;
+                        text-transform: capitalize;
                         a {
                            text-decoration: none;
                            color: $color-primary;

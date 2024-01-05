@@ -26,9 +26,10 @@
                 width: 450px;
                 li{
                     font-size: $subtitle-fz;
+                    text-transform: capitalize;
                     a{
                         text-decoration: none;
-                        color: $color-text
+                        color: $color-text;
                     }
                 }
             }
@@ -37,8 +38,9 @@
             padding: 15px;
             border-radius: 40px;
             border: none;
-            width: 100px;
+            width: 120px;
             background-color:$color-primary;
+            text-transform: capitalize;
             a{
                 color: $color-tertiary;
                 text-decoration: none;
@@ -105,6 +107,7 @@
             p {
                 color:$color-subtle-text;
                 font-size: $body-1-fz;
+                text-transform: capitalize;
             }
             .date {
                 margin: 3px 0 0 46px;
@@ -193,6 +196,7 @@
                     font-size: $header-5-fz;
                     font-weight: $header-5-fw-bolder;
                     margin:7% 10% 0 35px;
+                    text-transform: capitalize;
                     a{
                         color: $color-primary;
                         text-decoration: none;

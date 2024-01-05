@@ -96,7 +96,7 @@ export default function mainPage() {
                 </header>
                 <article>
                       <h2>what do you know about OAU?</h2>
-                        <p>how dose that work? like lets asume your in the us do you haveto get aproval from the FAA or can you just do what you want? seems like sea planes should be way more popular than they are given thant they turn besically any water into an airport that has to be so convenient in remote place like alaska and its not like yot cant make a sea plane that can also land on regular runways</p>
+                        <p>how dose that work? like lets asume your in the us do you have to get aproval from the FAA or can you just do what you want? seems like sea planes should be way more popular than they are given thant they turn besically any water into an airport that has to be so convenient in remote place like alaska and its not like yot cant make a sea plane that can also land on regular runways</p>
 
                         <Link href="#"> view full post</Link>
 
